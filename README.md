@@ -12,29 +12,180 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+   Check system requirements in the operating system of your computer.
+   Back up your data.
+   Download windows 11
+   Create a bootable USB drive.
+   Run the installation assistant.
+   Install windows 11
+   
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+   Visit the Visual Studio Code download website.
+   Choose the correct installer.
+   Download the installer.
+   Run the installer.
+   Install Visual Studio Code.
+   Launch Visual Studio Code.
+   Initiate set up.
+   Sync Settings.
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+   Install GIT.
+   Configure GIT.
+   Create a Github account.
+   Initialize a GIT repository.
+   Link to Github.
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+  Install python.
+  Download Python.
+  Run the installer.
+  Verify installation.
+  Install necessary tools.
+  Install virtual environment(Optional but recommended)
+  Install project dependencies.
+  Install additional tools.
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+   Install package managers for python(pip)
+   Verify pip installation eg pip --version
+   Install pip eg python -m install pip
+
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
-
+   Download and install MySQL.
+   Download MySQL installer.
+   Run the installer.
+   Configure MySQL.
+   Complete installation.
+   Verify installation.
+   Open MySQL command line.
+   Test connection.
+   
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+   Download Docker.
+   Run the installer.
+   Verify docker installation.
+   Open terminal or command prompt.
+   Create and run a docker container.
+   Pull an image.
+   Run the container.
+   Create a docker file.
+   Build the docker image.
+   Run the docker container.
+   Use virtual machines for example Install virtualbox.
+   Create a new virtual machine.
+   Install an OS.
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+   Visual Studio Code.
+   ESlint.
+   Prettier.
+   Gitlens.
+   LiveServer.
+   Visual Studio IntelliCode.
+   Debugger for Chrome.
+   Bracket Pair Colorizer.
+
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+    **Developer Environment Setup Documentation**
+
+**Text Editor/IDE: Visual Studio Code (VS Code)
+
+**Operating System: Windows 11
+1. **Download VS Code:**
+   - Visit the [VS Code website](https://code.visualstudio.com/).
+   - Download the installer for Windows.
+   - Run the installer and follow on-screen instructions.
+
+2. **Install Extensions:**
+   - Launch VS Code.
+   - Open the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
+   - Search for and install the following extensions:
+     - ESLint
+     - Prettier
+     - GitLens
+     - Bracket Pair Colorizer
+     - Live Server
+     - Docker
+     - REST Client
+     - Debugger for Chrome
+     - Jupyter
+     - Visual Studio IntelliCode
+
+### Configuration:
+
+1. **ESLint:**
+   - Ensure ESLint is installed globally: `npm install -g eslint`.
+   - Create an ESLint configuration file in your project directory if not already present: `.eslintrc.json`.
+   - Customize ESLint rules as needed.
+
+2. **Prettier:**
+   - No additional configuration needed. Prettier uses default settings but can be customized via `.prettierrc` file if required.
+
+3. **GitLens:**
+   - No additional configuration needed.
+
+4. **Bracket Pair Colorizer:**
+   - No additional configuration needed.
+
+5. **Live Server:**
+   - No additional configuration needed.
+
+6. **Docker:**
+   - Ensure Docker is installed on your system.
+   - Docker extension should automatically detect Dockerfiles and docker-compose.yml files in your workspace.
+
+7. **REST Client:**
+   - No additional configuration needed.
+
+8. **Debugger for Chrome:**
+   - Configure `launch.json` for your project to enable debugging.
+
+9. **Jupyter:**
+   - Ensure Jupyter is installed in your Python environment (`pip install jupyter`).
+   - Configure Jupyter extension settings if necessary.
+
+10. **Visual Studio IntelliCode:**
+    - No additional configuration needed.
+
+### Customizations:
+
+- **Theme:** I use the default Dark+ theme.
+- **Font:** Fira Code with ligatures enabled.
+- **Keybindings:** Custom keybindings for specific actions.
+- **Editor Settings:** Increased font size, line height, and tab size.
+
+### Troubleshooting:
+
+- **ESLint Not Working:**
+  - Ensure ESLint is installed globally and configured properly.
+  - Check ESLint output in the VS Code console for any error messages.
+
+- **Debugger Not Attaching:**
+  - Ensure correct configuration in `launch.json`.
+  - Check for conflicting extensions.
+
+- **Live Server Not Refreshing:**
+  - Make sure Live Server is running (click "Go Live" in the bottom right).
+  - Check if there are any errors in the console.
+
+- **Docker Extension Not Detecting Files:**
+  - Ensure Docker is installed and running.
+  - Check Docker extension settings in VS Code.
+
+---
+
+This documentation covers the setup process, configurations, customizations, and troubleshooting steps for my developer environment using Visual Studio Code on Windows 10.
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
